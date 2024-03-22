@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Matcha</title>
+  <style>
+    h1 {
+      color: #025157;
+    }
+    li {
+      display: inline;
+    }
+    .fixed-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #fffbf7; /* Color de fondo personalizado */
+      z-index: 1000; /* Asegura que la barra de navegación esté por encima del resto del contenido */
+    }
+    .header {
+      margin-top: 40px;
+      margin-left: 20px;
+      margin-right: 20px;
+      font-size: 0;
+    }
+    .header > * {
+      display: inline-block;
+      font-size: 16px;
+      vertical-align: middle;
+      height: 100%;
+      line-height: 45px;
+    }
+    .logo img {
+      width: 15%;
+    }
+    .navbar {
+      width: 70%;
+      text-align: center;
+      color: #025157;
+      font-weight: 500;
+    }
+    .actions {
+      width: 15%;
+      text-align: right;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .promo {
+      display: flex;
+      width: 70%;
+      margin: 100px auto;
+      align-items: center;
+    }
+    video {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: 0 auto;
+    }
+    article {
+      width: 100%;
+      background-color: #f2f2f2;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .main {
+      margin-top: 285px;
+      text-align: center;
+    }
+    .features {
+      background-color: #f9f9f9; /* Color de fondo para la sección de características */
+      padding: 50px 0; /* Espaciado interno */
+      text-align: center;
+      display: grid; /* Cambio a grid */
+      grid-template-columns: 1fr 1fr; /* Dos columnas de tamaño igual */
+      gap: 20px; /* Espacio entre las columnas */
+    }
+    .success-stories {
+      background-color: #ffffff; /* Color de fondo para la sección de casos de éxito */
+      padding: 50px 0; /* Espaciado interno */
+      text-align: center;
+    }
+    .promo-content {
+      padding: 20px;
+      flex: 1;
+    }
+    .promo-video {
+      padding: 20px;
+      flex: 1;
+    }
+    .promo-video img {
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+    @media (max-width: 768px) {
+      .promo {
+        flex-direction: column;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Este es el contenedor que envuelve a la barra de navegación -->
+  <section class="fixed-header">
+    <header class="header">
+      <!-- Logo con link a la página principal -->
+      <a href="/" class="logo">
+        <img src="" alt="Logo">
+      </a>
+      <!-- Menú de navegación -->
+      <nav class="navbar">
+        <ul>
+          <li>Platform</li>
+          <li>Pricing</li>
+          <li>Customers</li>
+          <li>Resources</li>
+          <li>About</li>
+        </ul>
+      </nav>
+      <!-- Contenedor de acciones de usuario -->
+      <div class="actions">
+        <a>Sign In</a>
+        <button>Start free trial</button>
+      </div>
+    </header>
+  </section>
+
+  <!-- Contenido principal -->
+  <div class="main">
+    <!-- Esto es lo que se verá en el navegador web -->
+    <h1>Build your blog. Build your business.</h1>
+
+    <form>
+      <input type="email" />
+      <button type="submit">
+        Try it now &rarr;
+      </button>
+    </form>
+  </div>
+
+  <!-- Video y Contenido de publicidad -->
+  <section class="promo">
+    <!-- Video -->
+    <article class="promo-video">
+      <video
+      controls
+      poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
+      >
+      <source
+      type="video/webm"
+      src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
+      />
+      <source
+      type="video/mp4"
+      src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+      />
+      </video>
+      <img
+      src=""
+      alt="See how it works"
+      />
+    </article>
+    <!-- Contenido de publicidad -->
+    <article class="promo-content">
+      <!-- Aquí puedes agregar tu contenido de publicidad -->
+      <h3>Publish to your blog in minutes not hours.</h3>
+      <p>Your blog is your most powerful asset to build, engage, and retain a loyal audience. But you don't have hours to create content that may or may not work. With Matcha, instantly publish from our library of professionally written articles and build your email list faster with our powerful conversion tool.</p>
+      <form>
+        <p>Start publishing today:</p>
+        <div>
+          <input type="text" placeholder="Your email" />
+          <button>Start My Trial</button>
+        </div>
+      </form>
+    </article>
+  </section>
+
+  <!-- Contenido de características -->
+  <section class="features">
+    <!-- Contenido de las características -->
+    <article>Característica 1</article>
+    <article>Característica 2</article>
+    <article>Característica 3</article>
+    <article>Característica 4</article>
+  </section>
+
+  <!-- Contenido de casos de éxito -->
+  <section class="success-stories">
+    <!-- Aquí puedes agregar contenido para los casos de éxito -->
+    <h2>Casos de Éxito</h2>
+    <p>Agrega aquí los testimonios de  clientes satisfechos o casos de éxito de tu negocio .</p
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
